@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    color: white;
+    background-color:black;
+    width: 1440px;
+}
+header{
+    width: 1500px;
+    background-color: blue;
+    height: 60px;
+    @media (max-width: 576px) (
+        .header{
+            max-width: 540px
+        }
+    )
+        
+    }
+
+header .logo{
+    font-weight: bold;
+    position: relative;
+    top: 20px;
+    left: 50px;
+    font-size: 20px;
+    justify-content: space-between;
+}
+
+header .menu{
+    font-size: 20px;
+    position: relative;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    bottom: 20px;
+}
+input{
+    background-color: darkblue;
+    color: white;
+    position: relative;
+    left: 1060px;
+    bottom: 60px;
+    border-radius: 10px;
+}
+i{
+    position: relative;
+    left: 1200px;
+    bottom: 58px;
+    font-size: 20px;
+    gap: 20px;
+}
+img{
+    height: 450px;
+    width: 1500px;
+}
+.img{
+    h1{
+        position: relative;
+        bottom: 400px;
+        left: 100px;
+        font-size: 50px;
+    }
+    h3{
+        position: relative;
+        bottom: 430px;
+        left: 100px;
+        color: grey;
+    }
+    button{
+        position: relative;
+        bottom: 400px;
+        left: 100px;
+        background-color: blue;
+        color: white;
+        font-size: 30px;
+        border-radius: 10px;
+    }
+}
+.icons  
+  i{
+        position: relative;
+        left: 200px;
+        bottom: 200px;
+       gap: 100px;
+       color: blue;
+       display: flex;
+    }
+    p{
+        color: white;
+        position: relative;
+        left: 200px;
+        bottom: 210px;
+    }
+    .icons{
+        display: flex;
+        gap: 40px;
+    }
+    @media screen {max-width: 992px;
+        .icons
+    }
+    @media (orientation: landscape){
+        .icons{
+            color: red;
+        }
+    }
+
+
+
+
+
